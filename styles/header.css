@@ -1,0 +1,32 @@
+.main-header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Raleway", "open-sans";
+    font-weight: 400;
+}
+
+.header__logo {
+    width: 80px;
+}
+
+.header__links {
+    
+    font-size: 14px
+}
+
+.header__links-item {
+    padding-left: 20px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .header__logo {
+        width: 160px;
+    }
+    .main-header {
+        padding: 80px 80px 40px 80px;
+    }
+}
