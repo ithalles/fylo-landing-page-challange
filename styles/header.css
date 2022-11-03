@@ -6,6 +6,7 @@
     flex-direction: row;
     font-family: "Raleway", "open-sans";
     font-weight: 400;
+    
 }
 
 .header__logo {
@@ -28,5 +29,7 @@
     }
     .main-header {
         padding: 80px 80px 40px 80px;
+        max-width: 1600px;
+        margin: auto;
     }
 }

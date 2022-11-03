@@ -3,6 +3,7 @@ footer {
     flex-direction: column;
     background-color: var(--very-dark-blue);
     padding: 40px;
+    
 }
 
 .footer-logo {
@@ -41,6 +42,7 @@ footer {
 
 .footer__social-facebook {
     content: url(/images/icons8-facebook-circled.svg);
+    
 
 }
 .footer__social-twitter {
@@ -62,10 +64,19 @@ footer {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width: 1440px) {
+
     footer {
+        margin: auto;
+        max-width: 1600px;
+        padding: 0;
+    }
+
+    .footer__box {
         padding: 80px 80px 10px 80px;
         display: grid;
         grid-template-columns: repeat(4, auto);
+        
+        
     }
 
     .footer-logo {
